@@ -68,6 +68,20 @@ Add the following content:
  ```
 
 ## Step 4 - Restart and Run!
-Restart your apache and try accesing the url http://my-project-url.local.
+Restart your apache and try accessing the url http://my-project-url.local.
 
 **Note:** Sometimes you need to add the **http://** in the url in order to reach your local server.
+
+### Step 4.1 - (Optional) Start Git Flow
+Start the git flow via SourceTree or via command line.
+
+    git flow init;
+
+### Step 4.2 - (Optional) Update your branch
+
+    git pull;
+
+
+### Step 4.3 - (Optional) initialize and update the submodules of your project
+
+    git submodule update --recursive --init;
